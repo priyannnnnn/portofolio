@@ -12,7 +12,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'profile-bg': '#F0BB78',
+      },
+    },
   },
   plugins: [],
 }
