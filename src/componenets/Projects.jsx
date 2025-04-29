@@ -7,8 +7,7 @@ import myPhoto from '../supri1.jpeg';
 import stunting from '../images/stunting.jpg';
 import anyfarm from '../images/anyfarm.jpg';
 import pkm from '../images/pkm.jpg'
-import english from '../images/english.jpg';
-import english1 from '../images/english1.jpg'
+import gemastik from '../images/gemastik.jpg';
 import english2 from '../images/english2.jpg'
 import mitrakota from '../images/mitrakota.png'
 
@@ -22,27 +21,27 @@ const projects = [
   },
   {
     title: 'StuntGuard',
-    description: 'A Mobile Application to prevent stunting in children and pregnant women through daily intake activities.',
+    description: 'A Mobile application to prevent stunting in children and pregnant women through daily intake activities.',
     link: 'https://github.com/priyannnnnn/StuntGuardMobile',
     image: stunting,
   },
   {
     title: 'Temanternak',
-    description: 'A Mobile Application to manage and monitor quail cages in real time and at any time.',
+    description: 'A Mobile application to manage and monitor quail cages in real time and at any time.',
     link: 'https://play.google.com/apps/internaltest/4701621904094739285',
     image: anyfarm,
   },
   {
     title: 'RL Glass Myopi',
-    description: 'A Mobile Application to use low-level red light technology glasses for myopia therapy and myopia education.',
+    description: 'A Mobile application to use low-level red light technology glasses for myopia therapy and myopia education.',
     link: 'https://github.com/priyannnnnn/StuntGuardMobile',
     image: pkm,
   },
   {
-    title: 'Projec',
-    description: 'A portfolio website showcasing projects and skills, built with Next.js.',
-    link: 'https://github.com/yourusername/project-five',
-    image: english2,
+    title: 'EcoStyles',
+    description: 'An Mobile application used to sell and donate clothes, and can be an educational type of fabric, and a chatbot that can ask about styles.',
+    link: 'https://drive.google.com/file/d/1wxDx_2gotImGoKMfA0W95nEgLSW8K07_/view?usp=sharing',
+    image: gemastik,
   },
   {
     title: 'Project Six',

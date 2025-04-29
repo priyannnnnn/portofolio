@@ -5,6 +5,7 @@ import Hero from './componenets/Hero';
 import About from './componenets/About';
 import Projects from './componenets/Projects';
 import Contact from './componenets/Contact';
+import ResumeSection from './componenets/ResumeSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
+      <ResumeSection/>
     </div>
   );
 }
