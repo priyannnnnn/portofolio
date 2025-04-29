@@ -14,8 +14,8 @@ function App() {
       <Hero/>
       <About/>
       <Projects/>
-      <Contact/>
       <ResumeSection/>
+      <Contact/>
     </div>
   );
 }
