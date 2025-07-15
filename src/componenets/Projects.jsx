@@ -3,12 +3,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt'; // Install with: npm install react-parallax-tilt
-import myPhoto from '../supri1.jpeg';
-import stunting from '../images/stunting.jpg';
-import anyfarm from '../images/anyfarm.jpg';
-import pkm from '../images/pkm.jpg'
+// import stunting from '../images/stunting.jpg';
+import stunting from '../images/stuntingg.png';
+import anyfarm from '../images/TemanTernakk.png';
+import pkm from '../images/pkm-RE.png'
 import gemastik from '../images/gemastik.jpg';
+import MuslimAr from '../images/muslim.png'
 import english2 from '../images/english2.jpg'
+// import english2 from '../images/TemanTernakk.png'
 import mitrakota from '../images/mitrakota.png'
 
 // Project Data
@@ -28,23 +30,23 @@ const projects = [
   {
     title: 'Temanternak',
     description: 'A Mobile application to manage and monitor quail cages in real time and at any time.',
-    link: 'https://play.google.com/apps/internaltest/4701621904094739285',
+    link: 'https://play.google.com/store/apps/details?id=com.temanternak',
     image: anyfarm,
   },
   {
     title: 'RL Glass Myopi',
     description: 'A Mobile application to use low-level red light technology glasses for myopia therapy and myopia education.',
-    link: 'https://github.com/priyannnnnn/StuntGuardMobile',
+    link: 'https://bit.ly/supriPKM',
     image: pkm,
   },
   {
-    title: 'EcoStyles',
-    description: 'An Mobile application used to sell and donate clothes, and can be an educational type of fabric, and a chatbot that can ask about styles.',
-    link: 'https://drive.google.com/file/d/1wxDx_2gotImGoKMfA0W95nEgLSW8K07_/view?usp=sharing',
-    image: gemastik,
+    title: 'Muslim Ar',
+    description: 'A mobile application designed to guide prayer and recitation using AR, featuring motion detection, voice-based recitation feedback, and QR-based Tajweed learning. It enhances worship quality through interactive and educational tools.',
+    link: 'https://github.com/priyannnnnn/APLIKASI_AL-QURAN_BerkahSelalu',
+    image: MuslimAr,
   },
   {
-    title: 'Project Six',
+    title: 'Mitra Kota',
     description: 'A Website to be used to report government facilities and to provide feedback to the government and check the tracking of your reports.',
     link: 'https://github.com/Ahmedalghaili/SmartCity',
     image: mitrakota,
