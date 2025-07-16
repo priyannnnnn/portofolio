@@ -6,6 +6,9 @@ import About from './componenets/About';
 import Projects from './componenets/Projects';
 import Contact from './componenets/Contact';
 import ResumeSection from './componenets/ResumeSection';
+import Experience from './componenets/Experience';
+import Awards from './componenets/Awards';
+import Skills from './componenets/Skills';
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       <Hero/>
       <About/>
       <Projects/>
-      <ResumeSection/>
+      <Experience/>
+      <Awards/>
+      {/* <Skills/> */}
+      {/* <ResumeSection/> */}
       <Contact/>
     </div>
   );
