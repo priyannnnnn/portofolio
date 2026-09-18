@@ -5,93 +5,109 @@ import { Calendar, MapPin, ChevronRight } from "lucide-react"
 const Experience = () => {
   const experiences = [
     {
-      title: "Full-Stack Developer",
-      organization: "Temanternak Farm",
-      period: "Feb 2024 — Present",
-      location: "Remote",
-      description:
-        "Developed mobile applications using React Native with a Kotlin backend, featuring data input and visualization capabilities. Implemented and enhanced features to improve functionality and performance.",
-      contributions: [
-        "Built cross-platform mobile app using React Native for quail farm management",
-        "Developed RESTful APIs using Kotlin and Spring Boot framework",
-        "Implemented real-time data visualization for farm monitoring",
-        "Deployed applications on Google Play Store",
-        "Maintained server infrastructure and database optimization",
-      ],
-      color: "from-green-600 to-emerald-700",
-    },
-    {
-      title: "Teaching Assistant – SRIKEL Lab",
-      organization: "Universitas Islam Indonesia",
-      period: "Mar 2025 — Present",
+      title: "Full-Stack Developer (Freelance)",
+      organization: "PT Javan Cipta Solusi",
+      period: "Apr 2026 — Present",
       location: "Yogyakarta, Indonesia",
       description:
-        "As a Teaching Assistant at SRIKEL (Informatics Department, Universitas Islam Indonesia), assisted with lab sessions guiding system design with BPMN and LLM integration.",
+        "Built the Syarq AOS platform using a three-layer architecture: React.js frontend, Golang backend, and Laravel for authentication and admin management. Managed and maintained the development server environment to ensure a stable workflow.",
       contributions: [
-        "Assisting 60+ students in two classes, international and regular, in developing information systems",
-        "Guided more than 60+ students in designing intelligent information systems, with a focus on visualizing key concepts and workflows",
-        "Mentor students in software engineering best practices",
+        "Built Syarq AOS (aosonline.merapi.alurkerja.com) with React.js + Golang + Laravel three-layer architecture",
+        "Managed development server: service configuration, environment variables, and dependency management",
+        "Integrated Odoo (Sales, Inventory, CRM) into Syarq store service (store.merapi.syarq.com), enabling MSMEs to manage operations digitally",
+        "Maintained platform stability across React frontend, Golang services, REST APIs, and PostgreSQL databases",
+      ],
+      color: "from-violet-600 to-purple-700",
+    },
+    {
+      title: "Full-Stack Developer Intern",
+      organization: "PT Javan Cipta Solusi",
+      period: "Oct 2025 — Apr 2026",
+      location: "Yogyakarta, Indonesia",
+      description:
+        "Developed and maintained frontend UIs for product landing and application pages using React, alongside backend business logic in Golang, contributing to the core platform at alurkerja.com.",
+      contributions: [
+        "Developed React frontend and Golang backend for alurkerja.com core platform",
+        "Configured and managed staging server environments for QA testing and client validation",
+        "Engineered a PoC for Bank BTPN — ARIMA, SARIMA, and LSTM time-series forecasting with React + Django REST backend",
+        "Contributed to code reviews to maintain code quality across the team",
+        "Debugged cross-layer issues spanning React, Golang services, REST APIs, and PostgreSQL",
       ],
       color: "from-blue-600 to-indigo-700",
     },
     {
-      title: "Leader Programming Study Club",
-      organization: "Universitas Islam Indonesia",
-      period: "Des 2024 — Present",
+      title: "CEO & Founder · Full-Stack Developer",
+      organization: "TemanTernak Farm",
+      period: "Dec 2023 — Present",
       location: "Yogyakarta, Indonesia",
       description:
-        "Lead club activities and conduct regular meetings to encourage member engagement and learning. Develop structured learning materials and host coding workshops and guest lectures.",
+        "Founded TemanTernak — a digital platform for smallholder farmers. Led a cross-functional team of 3 (backend engineers + UI/UX designer) and shipped both a mobile app and a web-based ERP platform.",
       contributions: [
-        "Designed and implemented structured technical roadmaps centered on problem solving and competitive programming.",
-        "Organized weekly coding workshops, algorithm training, and internal competitions to prepare members for national-level contests.",
+        "Led sprint planning, task breakdown, and stakeholder communication for a team of 3",
+        "Built and shipped a cross-platform React Native mobile app with 5 core features: farm tracking, income/expense recording, livestock production logging",
+        "Engineered RESTful API with JWT-based authentication",
+        "Managed the full Google Play Store release cycle from build to deployment",
+        "Drove business development for quail seed and egg distribution",
+      ],
+      color: "from-green-600 to-emerald-700",
+    },
+    {
+      title: "Assistant Lecturer — Mobile Development",
+      organization: "Laboratorium Terpadu Informatika UII",
+      period: "Sep 2025 — May 2026",
+      location: "Yogyakarta, Indonesia",
+      description:
+        "Assisted 60+ students across international and regular classes in developing mobile applications using Kotlin. Guided students step by step through building applications with hands-on learning.",
+      contributions: [
+        "Mentored 60+ students in international and regular classes on Kotlin mobile development",
+        "Guided students through practical application building with Kotlin and Android Studio",
+        "Provided hands-on support for debugging and architectural decisions",
+      ],
+      color: "from-teal-600 to-cyan-700",
+    },
+    {
+      title: "Assistant Lecturer — Information Systems Development",
+      organization: "Laboratorium Terpadu Informatika UII",
+      period: "Mar 2025 — Aug 2025",
+      location: "Yogyakarta, Indonesia",
+      description:
+        "Assisted 60+ students in developing information systems with a focus on designing guidance systems using BPMN and LLM integration.",
+      contributions: [
+        "Assisted 60+ students in international and regular classes in designing intelligent information systems",
+        "Guided students in BPMN workflow design and LLM integration",
+        "Focused on visualizing key concepts and practical system design",
+      ],
+      color: "from-sky-600 to-blue-700",
+    },
+    {
+      title: "Leader",
+      organization: "Programming Study Club (PSC) — UII",
+      period: "Jan 2025 — Nov 2025",
+      location: "Yogyakarta, Indonesia",
+      description:
+        "Led programming club activities, organized regular meetings, developed structured learning materials, facilitated coding workshops, and hosted guest lectures to enhance technical skills.",
+      contributions: [
+        "Led club activities and regular meetings to foster member engagement",
+        "Developed structured learning materials and facilitated coding workshops",
+        "Hosted guest lectures and collaborated with industry professionals",
+        "Partnered with other student organizations to broaden learning opportunities",
       ],
       color: "from-emerald-600 to-teal-700",
     },
     {
-      title: "Web Manager",
-      organization: "Sinera & Forsimba",
-      period: "Feb 2024 — Present",
+      title: "Leader",
+      organization: "UII Football Student Activity Unit",
+      period: "Feb 2024 — Jul 2025",
       location: "Yogyakarta, Indonesia",
       description:
-        "Created village branding websites using Astro and Tailwind CSS. Become an integral part of PPKO Ormawa by contributing to village service programs.",
+        "Led and managed the UII Football club — overseeing strategic planning, policy development, and long-term goals. Represented UII at scholarship and talent outreach events.",
       contributions: [
-        "Develop responsive websites using Astro framework and Tailwind CSS",
-        "Implement SEO optimization for better search engine visibility",
-        "Create content management systems for village administrators",
-        "Support community development initiatives through digital solutions",
-      ],
-      color: "from-purple-600 to-pink-700",
-    },
-    {
-      title: "Leader UKM Football",
-      organization: "Universitas Islam Indonesia",
-      period: "Apr 2024 — Jun 2025",
-      location: "Yogyakarta, Indonesia",
-      description:
-        "Design and establish a clear Vision and Mission, provide direction to be achieved, and build motivation to work with high dedication. Responsible for and ensure effective communication between the management and members of the Unisi Football team.",
-      contributions: [
-        "Lead team of 30+ members in competitive tournaments",
-        "Develop strategic planning for team performance improvement",
-        "Coordinate training schedules and team building activities",
-        "Represent university in inter-university sports competitions",
-        "Manage team budget and equipment procurement",
+        "Led strategic planning, policy development, and long-term goals for the club",
+        "Coordinated management team to improve operational efficiency",
+        "Represented UII in regional and national competitions",
+        "Delivered keynote presentations at 'Scholarship for Athletes & Arts' program, SMANKO Semarang",
       ],
       color: "from-orange-600 to-red-700",
-    },
-    {
-      title: "Student Executive Institute",
-      organization: "Universitas Islam Indonesia",
-      period: "Jul 2023 — Jan 2024",
-      location: "Yogyakarta, Indonesia",
-      description:
-        "Analyze problems related to student studies around campus and find solutions. Create 'Action' events that aim to intellectualize current issues among students.",
-      contributions: [
-        "Conduct research on student academic challenges and propose solutions",
-        "Organize intellectual discourse events for student community",
-        "Collaborate with faculty to improve academic support systems",
-        "Develop policy recommendations for student welfare improvements",
-      ],
-      color: "from-cyan-600 to-blue-700",
     },
   ]
 

@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import { Download, Mail, Github, Linkedin, Code2 } from "lucide-react"
-import myPhoto from '../supribaground.png';
+import myPhoto from '../images/supri.jpg';
 import cvFile from '../supricv.pdf'  // Make sure path is correct
 
 
@@ -16,19 +16,30 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative flex-shrink-0"
           >
-            <div className="w-80 h-80 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-full p-2 shadow-2xl">
-              <div className="w-full h-full bg-white rounded-full overflow-hidden">
+            {/* Glow ring behind card */}
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-3xl blur-xl opacity-30 scale-105" />
+
+            {/* Portrait card */}
+            <div className="relative w-72 h-96 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-3xl p-1 shadow-2xl">
+              <div className="w-full h-full bg-white rounded-[22px] overflow-hidden">
                 <img
                   src={myPhoto}
                   alt="Supriyanto Profile"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
+
+            {/* Code badge */}
             <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-3 rounded-full shadow-lg">
               <Code2 size={24} />
+            </div>
+
+            {/* Floating tag */}
+            <div className="absolute -top-3 -left-3 bg-white text-blue-700 text-xs font-bold px-3 py-1.5 rounded-full shadow-md border border-blue-100">
+              Full Stack Dev
             </div>
           </motion.div>
 
@@ -57,7 +68,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-2xl lg:text-3xl font-semibold text-slate-600 mb-6"
             >
-               I'm a Student of the International Informatics Engineering Program at UII.
+               Full Stack Developer · Fresh Graduate, Informatics Engineering (International Program) — UII
             </motion.h2>
 
             <motion.p
@@ -66,9 +77,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="text-lg text-slate-600 mb-8 max-w-2xl"
             >
-              Passionate about creating innovative solutions through code. Specializing in mobile and web development with expertise in React Native, Next.js, and modern backend technologies. 
-              Currently leading the Programming Study Club and serving as an Assistant Lecturer at Universitas Islam Indonesia, where I guide fellow developers, foster collaboration, 
-              and contribute to impactful software development and learning initiatives.
+              Results-driven Full Stack Developer with hands-on production experience building web and mobile platforms using JavaScript (React/React Native), PHP (Laravel), Golang, and Python. Delivered ERP systems, fintech PoCs, and a published mobile app — from architecture through deployment. Experienced integrating REST APIs, RAG/LLM pipelines, and third-party services (Odoo) in real business environments.
             </motion.p>
 
             {/* Action Buttons */}

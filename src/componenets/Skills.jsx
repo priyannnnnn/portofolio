@@ -1,50 +1,50 @@
 "use client"
 import { motion } from "framer-motion"
-import { Code, Database, Smartphone, Globe, Server, PenToolIcon as Tool, Languages, Award } from "lucide-react"
+import { Code, Database, Smartphone, Globe, Server, PenToolIcon as Tool, Languages, Award, Brain } from "lucide-react"
 
 const Skills = () => {
   const skillCategories = [
     {
-      icon: <Smartphone className="w-6 h-6" />,
-      title: "Mobile Development",
-      level: 85,
-      skills: ["React Native", "Kotlin", "Android Studio", "Flutter", "Expo"],
-      color: "from-blue-600 to-indigo-700",
-    },
-    {
       icon: <Globe className="w-6 h-6" />,
       title: "Frontend Development",
-      level: 80,
-      skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Astro"],
-      color: "from-emerald-600 to-teal-700",
+      level: 85,
+      skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Astro", "SCSS"],
+      color: "from-blue-600 to-indigo-700",
     },
     {
       icon: <Server className="w-6 h-6" />,
       title: "Backend Development",
-      level: 75,
-      skills: ["Java Spring Boot", "Node.js", "Express.js", "RESTful APIs", "GraphQL"],
+      level: 80,
+      skills: ["Golang", "Laravel (PHP)", "Node.js / Express.js", "Django REST", "Java Spring Boot", "RESTful APIs"],
+      color: "from-emerald-600 to-teal-700",
+    },
+    {
+      icon: <Smartphone className="w-6 h-6" />,
+      title: "Mobile Development",
+      level: 80,
+      skills: ["React Native", "Kotlin", "Expo", "Android Studio", "Google Play"],
       color: "from-purple-600 to-pink-700",
     },
     {
-      icon: <Database className="w-6 h-6" />,
-      title: "Database & Cloud",
+      icon: <Brain className="w-6 h-6" />,
+      title: "AI & Data",
       level: 70,
-      skills: ["PostgreSQL", "MySQL", "Supabase", "Firebase", "Oracle DB"],
+      skills: ["RAG Pipeline", "LLM Integration", "Vector Store", "ARIMA / SARIMA", "LSTM", "Python"],
+      color: "from-violet-600 to-purple-700",
+    },
+    {
+      icon: <Database className="w-6 h-6" />,
+      title: "Database & Integrations",
+      level: 75,
+      skills: ["PostgreSQL", "MySQL", "Supabase", "Firebase", "Odoo (ERP)", "JWT Auth"],
       color: "from-orange-600 to-red-700",
     },
     {
       icon: <Tool className="w-6 h-6" />,
       title: "DevOps & Tools",
-      level: 65,
-      skills: ["GitHub", "Docker", "Postman", "CI/CD", "Linux"],
+      level: 70,
+      skills: ["Git / GitHub / GitLab", "Ubuntu Server", "Postman", "Jira", "VS Code", "IntelliJ IDEA"],
       color: "from-cyan-600 to-blue-700",
-    },
-    {
-      icon: <Code className="w-6 h-6" />,
-      title: "Programming Languages",
-      level: 85,
-      skills: ["JavaScript", "TypeScript", "Java", "Kotlin", "Python"],
-      color: "from-green-600 to-emerald-700",
     },
   ]
 
